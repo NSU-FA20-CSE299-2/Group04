@@ -8,7 +8,7 @@
 <p align="center"><strong>Project Name</strong>: NSU RDS Mobile Application</p>
 <p align="center"><strong>Course No</strong>: CSE 299 <strong>Sec</strong><strong>:</strong> 2</p>
 <p align="center"><strong>Faculty</strong>: Shaikh Shawon Arefin Shimon (SAS3)</p>
-<p align="center"><strong><u>Group</u></strong><u>:</u><u>4</u></p>
+<p align="center"><strong><u>Group</u></strong><u>:</u><u> 4</u></p>
 <p align="center"><strong><u>Member Detail</u></strong></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Abdullah Al Mahfuj Shaan</p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721275042</p>
