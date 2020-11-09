@@ -8,12 +8,13 @@
 <p align="center"><strong>Project Name</strong>: NSU RDS Mobile Application</p>
 <p align="center"><strong>Course No</strong>: CSE 299 <strong>Sec</strong><strong>:</strong> 2</p>
 <p align="center"><strong>Faculty</strong>: Shaikh Shawon Arefin Shimon (SAS3)</p>
+<p align="center"><strong><u>Group</u></strong><u>:</u></p>
 <p align="center"><strong><u>Member</u></strong><u>:</u></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Abdullah Al Mahfuj Shaan</p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721275042</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:abdullah.mahfuj@northsouth.edu">abdullah.mahfuj@northsouth.edu</a></p>
 <p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-FA20-CSE299-2/1721275_FA2020_CSE299.2">https://github.com/NSU-FA20-CSE299-2/1721275_FA2020_CSE299.2</a></p>
-<p align="center"><strong>Date Prepared</strong><strong>: </strong>00/0/2020</p>
+<p align="center"><strong>Date Prepared</strong><strong>: </strong>09/11/2020</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>INTRODUCTION</strong></p>
