@@ -44,7 +44,6 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p><strong>TECHNOLOGY</strong></p>
 <p>User Interface: Modern User Interface designed on Figma Platform will be used.</p>
 <p>Backend: Android Java, REST API</p>
-<p>&nbsp;</p>
 <p><strong>MONETIZATION</strong></p>
 <p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
 
