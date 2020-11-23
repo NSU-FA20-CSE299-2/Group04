@@ -18,7 +18,7 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>INTRODUCTION</strong></p>
-<p>TBA</p>
+<p>North South University is one the largest private university of Bangladesh with more than 26,000 students currently enrolled. NSU RDS or Student Portal which is the platform on which students can do their official activities such as Course Enrollment, Degree Application, Checking their results and student status, Course Registration Fees payment, and other payments for various documents.</p>
 <p>TBA</p>
 <p>TBA</p>
 <p><strong>FEATURES</strong></p>
