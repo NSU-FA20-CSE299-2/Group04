@@ -26,11 +26,25 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p><strong>TYPE OF PLATFORM</strong></p>
 <p>For this project, I have decided to develop on Mobile Application Platform that is Android. Currently I am not focusing on iOS versions, but this can also be done. If the course instructor or the Administration allows me to.</p>
 <p><strong>TECHNOLOGY</strong></p>
-<p> -User Interface: Modern User Interface designed on Figma Platform will be used. 
+-User Interface: Modern User Interface designed on Figma Platform will be used. 
 -Backend: Android Java, REST API
- </p>
- <p><strong>TECHNOLOGY</strong></p>
-<p> -User Interface: Modern User Interface designed on Figma Platform will be used. 
--Backend: Android Java, REST API
- </p>
+
+ <p><strong>FEATURES</strong></p>
+All the features that are currently available on the Web Version of RDS will be here. And additionally, I have a few ideas that I am going to discuss below
+-Landing Page/ Homepage
+-Student Profile- Name, CGPA, Credits Completed, Address etc
+-Advising Window
+-Grades
+-Payment Options
+-Attendance
+-Faculty Evaluation
+-Degree Analysis
+-Online Services
+-Course Drop
+-SMS History
+-Email Request
+Rather than this, I want to add features like **Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs** as well which will be helpful to develop any further upgrades and new ideas.
+
+<p><strong>FUTURE BUSINESS PLAN</strong></p>
+<p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
 <p>&nbsp;</p>
