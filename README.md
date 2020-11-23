@@ -21,10 +21,16 @@
 <p>North South University is one the largest private university of Bangladesh with more than 26,000 students currently enrolled. NSU RDS or Student Portal which is the platform on which students can do their official activities such as Course Enrollment, Degree Application, Checking their results and student status, Course Registration Fees payment, and other payments for various documents.</p>
 <p><strong>PROBLEM STATEMENT</strong></p>
 <p>NSU RDS works perfect when it is logged in through desktop platforms. The problem is created when students try to do their work through mobile devices, such as Smartphones and Tablets. Some features don’t work perfectly during the course registration phase. And sometimes students also face crashes in their mobile devices, which would not have happened if they tried it from a desktop platform.</p>
-<p><strong>FEATURES</strong></p>
-<ul>
-<li>TBA</li>
-</ul>
+<p><strong>PROJECT IDEA</strong></p>
+The main idea of the project is to create a modernized standalone mobile application version of the RDS which will be in sync with the Web Version one, and problems that they faced before while using RDS from smartphones will be solved. As most of the time students tend to use smartphones to do all these things, it would be a great improvement if the Application can be done. 
+<p><strong>TYPE OF PLATFORM</strong></p>
+<p>For this project, I have decided to develop on Mobile Application Platform that is Android. Currently I am not focusing on iOS versions, but this can also be done. If the course instructor or the Administration allows me to.</p>
 <p><strong>TECHNOLOGY</strong></p>
-<p>TBA</p>
+<p> -User Interface: Modern User Interface designed on Figma Platform will be used. 
+-Backend: Android Java, REST API
+ </p>
+ <p><strong>TECHNOLOGY</strong></p>
+<p> -User Interface: Modern User Interface designed on Figma Platform will be used. 
+-Backend: Android Java, REST API
+ </p>
 <p>&nbsp;</p>
