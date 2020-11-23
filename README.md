@@ -19,8 +19,8 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>INTRODUCTION</strong></p>
 <p>North South University is one the largest private university of Bangladesh with more than 26,000 students currently enrolled. NSU RDS or Student Portal which is the platform on which students can do their official activities such as Course Enrollment, Degree Application, Checking their results and student status, Course Registration Fees payment, and other payments for various documents.</p>
-<p>TBA</p>
-<p>TBA</p>
+<p><strong>PROBLEM STATEMENT</strong></p>
+<p>NSU RDS works perfect when it is logged in through desktop platforms. The problem is created when students try to do their work through mobile devices, such as Smartphones and Tablets. Some features don’t work perfectly during the course registration phase. And sometimes students also face crashes in their mobile devices, which would not have happened if they tried it from a desktop platform.</p>
 <p><strong>FEATURES</strong></p>
 <ul>
 <li>TBA</li>
