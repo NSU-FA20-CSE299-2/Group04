@@ -25,26 +25,26 @@
 The main idea of the project is to create a modernized standalone mobile application version of the RDS which will be in sync with the Web Version one, and problems that they faced before while using RDS from smartphones will be solved. As most of the time students tend to use smartphones to do all these things, it would be a great improvement if the Application can be done. 
 <p><strong>TYPE OF PLATFORM</strong></p>
 <p>For this project, I have decided to develop on Mobile Application Platform that is Android. Currently I am not focusing on iOS versions, but this can also be done. If the course instructor or the Administration allows me to.</p>
+<p><strong>FEATURES</strong></p>
+<ul>
+<li>Landing Page/ Homepage</li>
+<li>Student Profile- Name, CGPA, Credits Completed, Address etc</li>
+<li>Advising Window</li>
+<li>Grades</li>
+<li>Payment Options</li>
+<li>Attendance</li>
+<li>Faculty Evaluation</li>
+<li>Degree Analysis</li>
+<li>Online Services</li>
+<li>Course Drop</li>
+<li>SMS History</li>
+<li>Email Request</li>
+<p>Rather than this, I want to add features like Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs as well which will be helpful to develop any further upgrades and new ideas.</p>
+</ul>
 <p><strong>TECHNOLOGY</strong></p>
--User Interface: Modern User Interface designed on Figma Platform will be used. 
--Backend: Android Java, REST API
-
- <p><strong>FEATURES</strong></p>
-All the features that are currently available on the Web Version of RDS will be here. And additionally, I have a few ideas that I am going to discuss below
--Landing Page/ Homepage
--Student Profile- Name, CGPA, Credits Completed, Address etc
--Advising Window
--Grades
--Payment Options
--Attendance
--Faculty Evaluation
--Degree Analysis
--Online Services
--Course Drop
--SMS History
--Email Request
-Rather than this, I want to add features like **Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs** as well which will be helpful to develop any further upgrades and new ideas.
-
-<p><strong>FUTURE BUSINESS PLAN</strong></p>
-<p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
+<p>User Interface: Modern User Interface designed on Figma Platform will be used.</p>
+<p>Backend: Android Java, REST API</p>
 <p>&nbsp;</p>
+<p><strong>MONETIZATION</strong></p>
+<p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
+
