@@ -14,6 +14,7 @@
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721275042</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:abdullah.mahfuj@northsouth.edu">abdullah.mahfuj@northsouth.edu</a></p>
 <p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-FA20-CSE299-2/1721275_FA2020_CSE299.2">https://github.com/NSU-FA20-CSE299-2/1721275_FA2020_CSE299.2</a></p>
+<p align="center"><strong>Figma Repository</strong><strong>: </strong><a href="https://www.figma.com/files/project/20554811/NSU-RDS">https://www.figma.com/files/project/20554811/NSU-RDS</a></p>
 <p align="center"><strong>Date Prepared</strong><strong>: </strong>09/11/2020</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
