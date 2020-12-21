@@ -21,7 +21,14 @@ class student(models.Model):
     sex = models.CharField(max_length=10)
     citizenship = models.CharField(max_length=20)
     blood_group = models.CharField(max_length=5)
-    marital_status = models.CharField(10)
+    marital_status = models.CharField(max_length=10)
+    mailing_address = models.CharField(max_length=200)
+    telephone = models.IntegerField()
+    fathers_name = models.CharField(max_length=50)
+    mothers_name = models.CharField(max_length=50)
+    guardian_name = models.CharField(max_length=50)
+    parent_address = models.CharField(max_length=200)
+    parent_phone = models.IntegerField()
 
     def __str__(self):
         return self.firstname
