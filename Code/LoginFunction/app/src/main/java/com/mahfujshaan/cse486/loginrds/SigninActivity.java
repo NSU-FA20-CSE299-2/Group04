@@ -17,12 +17,11 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.TextView;
 
-public class SigninActivity extends AsyncTask<String, String, Void>{
+public class SigninActivity extends AsyncTask<String, String, String>{
     private TextView statusField,roleField;
     private Context context;
     private int byGetOrPost = 0;
 
-    //flag 0 means get and 1 means post.(By default it is get.)
     public SigninActivity(Context context,TextView statusField,TextView roleField,int flag) {
         this.context = context;
         this.statusField = statusField;
@@ -34,7 +33,7 @@ public class SigninActivity extends AsyncTask<String, String, Void>{
     }
     @Override
     protected String doInBackground(String...arg0) {
-        if(byGetOrPost == 0){ //means by Get Method
+        if(byGetOrPost == 0){
 
             try{
                 String username = (String)arg0[0];
