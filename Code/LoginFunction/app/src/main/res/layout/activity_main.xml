@@ -17,7 +17,8 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="25dp"
         android:ems="10"
-        android:inputType="textPassword" >
+        android:inputType="textPassword"
+        android:layout_alignEnd="@+id/editText1">
     </EditText>
 
     <EditText
@@ -27,7 +28,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="44dp"
-        android:ems="10" >
+        android:ems="10"
+        android:layout_alignParentEnd="true">
 
         <requestFocus android:layout_width="wrap_content" />
 
@@ -39,7 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/editText1"
         android:layout_alignParentLeft="true"
-        android:text="@string/Username" />
+        android:text="@string/Username"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,24 +61,32 @@
         android:layout_alignLeft="@+id/textView6"
         android:text="@string/Role"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        android:layout_alignStart="@+id/textView6" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView6"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
         android:layout_toLeftOf="@+id/editText1"
-        android:text="@string/LoginRole" />
+        android:text="@string/LoginRole"
+        android:layout_marginEnd="70dp"
+        android:layout_toStartOf="@+id/editText1" />
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView6"
         android:layout_alignLeft="@+id/textView5"
-        android:layout_marginBottom="27dp"
-        android:text="@string/method" />
+        android:layout_marginLeft="-14dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/method"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginStart="-14dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -84,7 +95,8 @@
         android:layout_alignLeft="@+id/textView8"
         android:layout_below="@+id/button1"
         android:layout_marginTop="86dp"
-        android:text="@string/LoginStatus" />
+        android:text="@string/LoginStatus"
+        android:layout_alignStart="@+id/textView8" />
 
 
     <TextView
@@ -105,7 +117,8 @@
         android:layout_alignLeft="@+id/textView6"
         android:text="@string/Choose"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="10sp" />
+        android:textSize="10sp"
+        android:layout_alignStart="@+id/textView6" />
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -113,7 +126,8 @@
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/textView6"
         android:onClick="loginPost"
-        android:text="@string/LoginPost" />
+        android:text="@string/LoginPost"
+        android:layout_toEndOf="@+id/textView6" />
 
     <Button
         android:id="@+id/button1"
@@ -123,7 +137,8 @@
         android:layout_alignBottom="@+id/button2"
         android:layout_alignLeft="@+id/textView2"
         android:onClick="login"
-        android:text="@string/LoginGet" />
+        android:text="@string/LoginGet"
+        android:layout_alignStart="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -132,6 +147,7 @@
         android:layout_alignBaseline="@+id/editText2"
         android:layout_alignBottom="@+id/editText2"
         android:layout_alignParentLeft="true"
-        android:text="@string/Password" />
+        android:text="@string/Password"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
