@@ -21,13 +21,13 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/confirm_password"
-        app:layout_constraintEnd_toStartOf="@+id/password_box2"
+        app:layout_constraintEnd_toStartOf="@+id/password_box_new"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sid_text"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/password_box2"
+        android:id="@+id/password_box_new"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="68dp"
@@ -35,7 +35,7 @@
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/password_box"
+        app:layout_constraintBottom_toTopOf="@+id/password_box_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/new_password"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <EditText
-        android:id="@+id/password_box"
+        android:id="@+id/password_box_confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -82,7 +82,7 @@
         android:layout_marginRight="64dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/password_box"
+        app:layout_constraintBottom_toTopOf="@+id/password_box_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toEndOf="@+id/sid_text"
@@ -109,7 +109,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/sign_up"
+        android:id="@+id/sign_up_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
@@ -117,7 +117,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_box"
+        app:layout_constraintTop_toBottomOf="@+id/password_box_confirm"
         app:layout_constraintVertical_bias="0.176" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
