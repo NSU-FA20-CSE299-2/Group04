@@ -1,7 +1,9 @@
 package com.mahfujshaan.cse486.studentportal;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -9,7 +11,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     EditText studentID, password;
@@ -17,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button newStudent;
     Button forgotPassword;
     FirebaseAuth mFirebaseAuth;
+    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +34,28 @@ public class MainActivity extends AppCompatActivity {
         studentID = findViewById(R.id.student_id_box);
         password = findViewById(R.id.password_box_confirm);
         buttonLogin = findViewById(R.id.sign_up_button);
-
-
         newStudent = findViewById(R.id.new_student);
         forgotPassword = findViewById(R.id.forgot_password);
+
+
+mAuthStateListener = new FirebaseAuth.AuthStateListener() {
+
+    @Override
+    public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+        FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
+        if(mFirebaseUser !=null)
+        {
+         Toast.makeText(MainActivity.this,"Logged in",Toast.LENGTH_SHORT).show();
+         Intent i = new Intent(MainActivity.this, LandingPage.class);
+         startActivity(i);
+        }
+        else{
+            Toast.makeText(MainActivity.this,"User not Registered",Toast.LENGTH_SHORT).show();
+        }
+    }
+};
+
+
 
         buttonLogin.setOnClickListener(new View.OnClickListener() {
 
@@ -55,14 +80,31 @@ public class MainActivity extends AppCompatActivity {
 
                //Firebase Auth
                 else if(!TextUtils.isEmpty(studentid) && TextUtils.isEmpty(passWord) ){
+mFirebaseAuth.signInWithEmailAndPassword(studentid,passWord).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+    @Override
+    public void onComplete(@NonNull Task<AuthResult> task) {
+        if(!task.isSuccessful()){
+            Toast.makeText(MainActivity.this,"Login Unsuccessful",Toast.LENGTH_LONG).show();
+        }
+        else{
+            Intent home = new Intent(MainActivity.this,LandingPage.class);
+            startActivity(home);
+        }
 
-
-
+    }
+});
                 }
-
-
             }
-
         });
+
+newStudent.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent i = new Intent (MainActivity.this,SignUp.class);
+        startActivity(i);
+    }
+});
+
+
     }
 }
