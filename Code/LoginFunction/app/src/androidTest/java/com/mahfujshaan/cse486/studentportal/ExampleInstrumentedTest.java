@@ -1,4 +1,4 @@
-package com.mahfujshaan.cse486.loginrds;
+package com.mahfujshaan.cse486.studentportal;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.mahfujshaan.cse486.loginrds", appContext.getPackageName());
+        assertEquals("com.mahfujshaan.cse486.studentportal", appContext.getPackageName());
     }
 }

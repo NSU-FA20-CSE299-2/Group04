@@ -1,4 +1,4 @@
-package com.mahfujshaan.cse486.loginrds;
+package com.mahfujshaan.cse486.studentportal;
 
 import org.junit.Test;
 
