@@ -73,7 +73,7 @@ mFirebaseAuth.createUserWithEmailAndPassword(studentid,confirmPassWord).addOnCom
     public void onComplete(@NonNull Task<AuthResult> task) {
         if(!task.isSuccessful())
         {
-            Toast.makeText(SignUp.this,"Sign Up Unsuccessful!!!",Toast.LENGTH_LONG).show();
+            Toast.makeText(SignUp.this,"Sign Up Successful!!!",Toast.LENGTH_LONG).show();
         }
         else
         {

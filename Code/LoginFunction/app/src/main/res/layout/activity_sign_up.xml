@@ -81,7 +81,7 @@
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/password_box_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
