@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Logged in", Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(MainActivity.this, LandingPage.class);
                     startActivity(i);
-                } else if (mFirebaseUser == null){
-                    Toast.makeText(MainActivity.this, "User not Registered, Sign Up First", Toast.LENGTH_SHORT).show();
+                } //else if (mFirebaseUser == null){
+                    //Toast.makeText(MainActivity.this, "User not Registered, Sign Up First", Toast.LENGTH_SHORT).show();
                 }
-            }
+           // }
         };
 
 
@@ -75,11 +75,12 @@ public class MainActivity extends AppCompatActivity {
                     mFirebaseAuth.signInWithEmailAndPassword(studentid, passWord).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (!task.isSuccessful()) {
-                                Toast.makeText(MainActivity.this, "Login Unsuccessful, Please Try Again!!", Toast.LENGTH_LONG).show();
-                            } else {
+                            if (task.isSuccessful()) {
+                                Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_LONG).show();
                                 Intent home = new Intent(MainActivity.this, LandingPage.class);
                                 startActivity(home);
+                            } else {
+                                Toast.makeText(MainActivity.this, "Login Unsuccessful, Please Try Again!!", Toast.LENGTH_LONG).show();
                             }
 
                         }
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 else {
-                    Toast.makeText(MainActivity.this, "Error Occured", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Error Occurred", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -108,7 +109,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Forgot Password
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent forgot = new Intent (MainActivity.this,LandingPage.class);
+                startActivity(forgot);
+            }
+        });
+
     }
 @Override
     protected void onStart(){
