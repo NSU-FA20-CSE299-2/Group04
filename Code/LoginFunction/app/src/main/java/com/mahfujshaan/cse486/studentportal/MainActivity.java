@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Logged in", Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(MainActivity.this, LandingPage.class);
                     startActivity(i);
-                } else {
+                } else if (mFirebaseUser == null){
                     Toast.makeText(MainActivity.this, "User not Registered, Sign Up First", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -100,6 +100,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent login = new Intent (MainActivity.this,LandingPage.class);
+                startActivity(login);
+            }
+        });
 
         //Forgot Password
     }
