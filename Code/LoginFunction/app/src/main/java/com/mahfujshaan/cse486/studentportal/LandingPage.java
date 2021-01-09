@@ -16,7 +16,6 @@ public class LandingPage extends AppCompatActivity {
     Button logout;
 
     FirebaseAuth mFirebaseAuth;
-    private FirebaseAuth.AuthStateListener mAuthStateListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,9 +27,8 @@ public class LandingPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
-
-                Intent mainactivity = new Intent(LandingPage.this, MainActivity.class);
-                startActivity(mainactivity);
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                finish();
             }
         });
     }
