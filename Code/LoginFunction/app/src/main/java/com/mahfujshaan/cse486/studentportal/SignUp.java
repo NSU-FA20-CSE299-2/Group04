@@ -68,8 +68,6 @@ if(task.isSuccessful()){
 startActivity(new Intent(getApplicationContext(),LandingPage.class));
 }
 
-
-
 else {
     Toast.makeText(SignUp.this, "Error", Toast.LENGTH_SHORT).show();
 }
@@ -77,5 +75,12 @@ else {
 });
             }
         });
+
+
+
+
+
+
+
     }
 }
