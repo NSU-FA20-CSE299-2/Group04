@@ -78,8 +78,8 @@ else {
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Intent forgot = new Intent (MainActivity.this,LandingPage.class);
-                //startActivity(forgot);
+               Intent forgot = new Intent (MainActivity.this,Homepage.class);
+               startActivity(forgot);
             }
         });
     }
