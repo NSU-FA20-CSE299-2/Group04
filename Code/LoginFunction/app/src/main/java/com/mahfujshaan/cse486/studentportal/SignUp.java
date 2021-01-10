@@ -65,7 +65,7 @@ mFirebaseAuth.createUserWithEmailAndPassword(studentid,newPassWord).addOnComplet
     public void onComplete(@NonNull Task<AuthResult> task) {
 if(task.isSuccessful()){
     Toast.makeText(SignUp.this, "Sign Up Successful", Toast.LENGTH_SHORT).show();
-startActivity(new Intent(getApplicationContext(),LandingPage.class));
+startActivity(new Intent(getApplicationContext(),Homepage.class));
 }
 
 else {
