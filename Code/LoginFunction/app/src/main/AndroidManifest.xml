@@ -14,8 +14,12 @@
         <activity
             android:name=".Homepage"
             android:label="@string/title_activity_homepage"
-            android:theme="@style/Theme.StudentPortal.NoActionBar"></activity>
-        <activity android:name=".LandingPage"></activity>
+            android:theme="@style/Theme.StudentPortal.NoActionBar">
+
+        </activity>
+        <activity android:name=".LandingPage">
+
+        </activity>
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity">
             <intent-filter>
