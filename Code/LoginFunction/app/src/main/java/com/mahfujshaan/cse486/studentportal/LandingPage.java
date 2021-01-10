@@ -13,23 +13,39 @@ import com.google.firebase.auth.FirebaseUser;
 public class LandingPage extends AppCompatActivity {
 
 
-    Button logout;
+    //Button logout;
 
     FirebaseAuth mFirebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing_page);
+//LOGOUT BUTTON FUNCTION
+        //logout = findViewById(R.id.logout);
 
-        logout = findViewById(R.id.logout);
+       // logout.setOnClickListener(new View.OnClickListener() {
+           // @Override
+           // public void onClick(View v) {
+                //FirebaseAuth.getInstance().signOut();
+                //startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                //finish();
+           // }
+        //});
 
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
-                finish();
-            }
-        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
