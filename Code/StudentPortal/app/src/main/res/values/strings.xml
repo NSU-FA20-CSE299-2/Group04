@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="pass_text">Password</string>
+    <string name="sid_text">Student ID</string>
 </resources>
