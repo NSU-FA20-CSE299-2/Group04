@@ -15,7 +15,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     EditText studentID, password;
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         studentID = findViewById(R.id.student_id_box);
         password = findViewById(R.id.password_box_login);
-        buttonLogin = findViewById(R.id.sign_up_button);
+        buttonLogin = findViewById(R.id.login_button);
         newStudent = findViewById(R.id.new_student);
         forgotPassword = findViewById(R.id.forgot_password);
 

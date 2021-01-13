@@ -30,7 +30,7 @@ public class SignUp extends AppCompatActivity{
         studentID = findViewById(R.id.student_id_box);
         newPassword = findViewById(R.id.password_box_new);
         confirmPassword = findViewById(R.id.password_box_login);
-        buttonSignUp = findViewById(R.id.sign_up_button);
+        buttonSignUp = findViewById(R.id.login_button);
         mFirebaseAuth = FirebaseAuth.getInstance();
 
 if(mFirebaseAuth.getCurrentUser() != null){
@@ -75,12 +75,6 @@ else {
 });
             }
         });
-
-
-
-
-
-
 
     }
 }
