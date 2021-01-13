@@ -2,4 +2,6 @@
     <string name="app_name">FinalProject</string>
     <string name="pass_text">Password</string>
     <string name="sid_text">Student ID</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
