@@ -39,15 +39,16 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new AdvisingFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_advising);
+            navigationView.setCheckedItem(R.id.nav_home);
         }
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.nav_advising:
+            case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new AdvisingFragment()).commit();
+                Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_attendance:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
@@ -56,62 +57,62 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
             case R.id.nav_degree:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new DegreeFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Degree Analysis", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_course_drop:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new DropCourseFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Course Drop", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_faculty_evaluation:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new EvaluationFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Faculty Evaluation", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_faq:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FAQFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "FAQ", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_grades:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new GradesFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Grades", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_help:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HelpFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Help", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HomeFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Homepage", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_logout:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new LogoutFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Logged Out", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_online_services:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ServicesFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Online Services", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_payments:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new PaymentFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Payments", Toast.LENGTH_SHORT).show();
                 break;
-                case R.id.nav_profile:
+                case R.id.nav_advising:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProfileFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Advising", Toast.LENGTH_SHORT).show();
                 break;
                 case R.id.nav_sms_history:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new SMSFragment()).commit();
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "SMS History", Toast.LENGTH_SHORT).show();
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
