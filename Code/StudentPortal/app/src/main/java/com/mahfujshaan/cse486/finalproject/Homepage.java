@@ -38,14 +38,14 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
         toggle.syncState();
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new AdvisingFragment()).commit();
+                    new ProfileFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
         }
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.nav_profile:
+            case R.id.nav_advising:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new AdvisingFragment()).commit();
                 Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
@@ -104,7 +104,7 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
                         new PaymentFragment()).commit();
                 Toast.makeText(this, "Payments", Toast.LENGTH_SHORT).show();
                 break;
-                case R.id.nav_advising:
+                case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProfileFragment()).commit();
                 Toast.makeText(this, "Advising", Toast.LENGTH_SHORT).show();
