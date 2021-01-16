@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity android:name=".SignUp"/>
+        <activity android:name=".ForgotPassword"/>
         <activity android:name=".Homepage"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".MainActivity">
