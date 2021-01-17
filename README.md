@@ -43,8 +43,10 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p>Rather than this, I want to add features like Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs as well which will be helpful to develop any further upgrades and new ideas.</p>
 </ul>
 <p><strong>TECHNOLOGY</strong></p>
-<p>User Interface: Modern User Interface designed on Figma Platform will be used.</p>
-<p>Backend: Android Java, REST API</p>
+<p>User Interface: User Interface has been hard coded using the base Android Studio XML editor.</p>
+<p>Backend: Android Java, SQLite Database and Firebase</p>
+<p><strong>PROBLEMS & DIFFICULTIES</strong></p>
+<p>The project was first started on the upward model. That is, started with the backend coding. But could not proceed much as expected due to fewer knowledge in REST API. So, it was decided to start the project from scratch. Started with the simple login and sign up mechanism. There were some bugs found. For example, the Firebase system authentication was not working. The system would let in if one did not type in the wrong password and email. So fixed that. The last problem that was faced was .Homepage activity was in "NoActionBar" mode. So the app crashed everytime it went to the homepage section. As the logcat was not checked, it took a lot of time to figure that out. Finally as it was fixed there were no more errors and app crashes. </p>
 <p><strong>MONETIZATION</strong></p>
 <p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
 
