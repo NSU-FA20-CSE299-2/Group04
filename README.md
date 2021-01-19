@@ -50,5 +50,14 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p><strong>MONETIZATION</strong></p>
 <p>As this is a complete product of NSU, there is NO business plan associated with it. The owner of the codes and documentation will solely be NSU.</p>
 
-## Login Screen
+#### Login Screen
 ![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg)
+
+#### Sign Up Screen
+![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/sign_up.jpg)
+
+#### Forgot Password
+![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/forgot_password.jpg)
+
+#### Landing Page
+![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/menu.jpg)
