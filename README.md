@@ -26,11 +26,9 @@
 The main idea of the project is to create a modernized standalone mobile application version of the RDS which will be in sync with the Web Version one, and problems that they faced before while using RDS from smartphones will be solved. As most of the time students tend to use smartphones to do all these things, it would be a great improvement if the Application can be done. 
 <p><strong>TYPE OF PLATFORM</strong></p>
 <p>For this project, I have decided to develop on Mobile Application Platform that is Android. Currently I am not focusing on iOS versions, but this can also be done. If the course instructor or the Administration allows me to.</p>
-<p><strong>FEATURES & PHOTOS</strong></p>
+<p><strong>FEATURES</strong></p>
 <ul>
 <li>Landing Page/ Homepage</li>
-  
-<p> ![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg) </p>
 <li>Student Profile- Name, CGPA, Credits Completed, Address etc</li>
 <li>Advising Window</li>
 <li>Grades</li>
@@ -44,6 +42,9 @@ The main idea of the project is to create a modernized standalone mobile applica
 <li>Email Request</li>
 <p>Rather than this, I want to add features like Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs as well which will be helpful to develop any further upgrades and new ideas.</p>
 </ul>
+<p><strong>PROJECT SNAPSHOTS</strong></p>
+##Login Screen
+ ![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg)
 <p><strong>TECHNOLOGY</strong></p>
 <p>User Interface: User Interface has been hard coded using the base Android Studio XML editor.</p>
 <p>Backend: Android Java, SQLite Database and Firebase</p>
