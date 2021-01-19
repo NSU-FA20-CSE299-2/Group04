@@ -26,9 +26,10 @@
 The main idea of the project is to create a modernized standalone mobile application version of the RDS which will be in sync with the Web Version one, and problems that they faced before while using RDS from smartphones will be solved. As most of the time students tend to use smartphones to do all these things, it would be a great improvement if the Application can be done. 
 <p><strong>TYPE OF PLATFORM</strong></p>
 <p>For this project, I have decided to develop on Mobile Application Platform that is Android. Currently I am not focusing on iOS versions, but this can also be done. If the course instructor or the Administration allows me to.</p>
-<p><strong>FEATURES</strong></p>
+<p><strong>FEATURES & PHOTOS</strong></p>
 <ul>
 <li>Landing Page/ Homepage</li>
+<p align="center"><strong><img src=" https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/Login%20Screen.JPG" alt="" width="307" height="172" /></strong></p>
 <li>Student Profile- Name, CGPA, Credits Completed, Address etc</li>
 <li>Advising Window</li>
 <li>Grades</li>
