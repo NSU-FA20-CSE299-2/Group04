@@ -43,7 +43,7 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p>Rather than this, I want to add features like Frequently Asked Question, Tutorial Sections to use NSU Email, using Google Classroom, Student Support- to raise online tickets to solve their problems, also a feedback section which will be open to them for giving suggestions and report bugs as well which will be helpful to develop any further upgrades and new ideas.</p>
 </ul>
 <p><strong>PROJECT SNAPSHOTS</strong></p>
-##Login Screen
+## Login Screen
  ![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg)
 <p><strong>TECHNOLOGY</strong></p>
 <p>User Interface: User Interface has been hard coded using the base Android Studio XML editor.</p>
