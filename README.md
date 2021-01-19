@@ -29,8 +29,8 @@ The main idea of the project is to create a modernized standalone mobile applica
 <p><strong>FEATURES & PHOTOS</strong></p>
 <ul>
 <li>Landing Page/ Homepage</li>
-## Login Screen
-![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/Login%20Screen.JPG)
+## login screen
+![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/Login%20Screen.png)
 <li>Student Profile- Name, CGPA, Credits Completed, Address etc</li>
 <li>Advising Window</li>
 <li>Grades</li>
