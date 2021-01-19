@@ -44,7 +44,7 @@ The main idea of the project is to create a modernized standalone mobile applica
 </ul>
 <p><strong>PROJECT SNAPSHOTS</strong></p>
 ## Login Screen
- ![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg)
+![login screen](https://github.com/NSU-FA20-CSE299-2/Group04/blob/main/Documentation/Project%20Screenshots/login_screen.jpg)
 <p><strong>TECHNOLOGY</strong></p>
 <p>User Interface: User Interface has been hard coded using the base Android Studio XML editor.</p>
 <p>Backend: Android Java, SQLite Database and Firebase</p>
